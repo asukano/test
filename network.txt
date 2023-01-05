@@ -1,0 +1,12 @@
+局域网 LAN local area network
+城域网 MAN metropolitan area network
+广域网 WAN wide area network
+网络服务提供商 ISP internet service provider
+ISP--路由器--核心交换机--(交换机1、交换机2..)--终端设备（1、2、3...)
+网卡：实现信号的发送和接收,调制信号
+MAC地址：网卡设备的地址，厂家预先烧录的
+网卡配置IP地址，通过IP找到MAC地址--arp协议
+IP地址在网络层，MAC地址在数据链路层
+网线中有8根不同颜色的线
+每个交换机(switch)提供一个网段，交换机上所有端口连接的终端设备的IP都处于该网段下
+路由器(router)
